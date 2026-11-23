@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Impacto y evolución de las tecnologías web en la sociedad y los negocios.">
+
+    <title>Impacto y Evolución de las Tecnologías Web</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        header {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        section, article, aside {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #075985;
+        }
+
+        h3 {
+            color: #0369a1;
+        }
+
+        .imagen-principal {
+            width: 100%;
+            max-width: 650px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .imagen-seccion {
+            width: 100%;
+            max-width: 450px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        video {
+            width: 100%;
+            max-width: 650px;
+            border-radius: 10px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: #075985;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0369a1;
+        }
+
+        footer {
+            background-color: #102a43;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 12px;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            nav ul {
+                gap: 15px;
+            }
+
+            .imagen-principal,
+            .imagen-seccion {
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+
+        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+             alt="Logo de tecnologías web">
+
+        <h1>IMPACTO Y EVOLUCIÓN DE LAS TECNOLOGÍAS WEB</h1>
+
+        <p>La transformación digital de la sociedad y los negocios</p>
+
+        <!-- NAVEGACIÓN -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="page_sec/Impacto_empresarial.html">Impacto empresarial</a></li>
+                <li><a href="page_sec/impacto_social.html">Impacto social</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- EVOLUCIÓN DE LA WEB -->
+        <section>
+
+            <h2>Evolución y tendencias de las tecnologías web</h2>
+
+            <p>
+                Las tecnologías web han evolucionado significativamente
+                con el paso de los años, transformando la manera en que
+                las personas se comunican, trabajan, estudian y realizan
+                actividades comerciales. Su desarrollo ha permitido
+                crear espacios digitales más interactivos, accesibles
+                y eficientes.
+            </p>
+
+            <img class="imagen-principal"
+                 src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200"
+                 alt="Planeta Tierra conectado mediante redes digitales">
+
+            <aside>
+
+                <h3>Evolución de la Web</h3>
+
+                <video controls>
+                    <source src="videos/evolucion_web.mp4" type="video/mp4">
+                    Tu navegador no admite la reproducción de videos.
+                </video>
+
+                <p>
+                    La evolución de la web se divide en diferentes etapas
+                    que han marcado importantes cambios en la comunicación
+                    y el acceso a la información.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>Web 1.0:</strong>
+                        Fue la primera generación de la web. Se caracterizó
+                        por páginas estáticas en las que los usuarios
+                        únicamente podían consultar información.
+                        <a href="https://torresburriel.com/weblog/web1-web2-web3-2/"
+                           target="_blank" rel="noopener noreferrer">
+                            Más información
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>Web 2.0:</strong>
+                        Permitió una mayor interacción entre los usuarios
+                        mediante redes sociales, blogs y plataformas
+                        colaborativas.
+                    </li>
+
+                    <li>
+                        <strong>Web 3.0:</strong>
+                        Busca una web más inteligente y descentralizada,
+                        incorporando tecnologías como inteligencia
+                        artificial, blockchain y sistemas semánticos.
+                    </li>
+
+                </ul>
+
+                <h3>Tendencias actuales</h3>
+
+                <p>
+                    Actualmente, las tecnologías web continúan avanzando
+                    gracias a herramientas como la inteligencia artificial,
+                    las aplicaciones web progresivas (PWA), el Internet
+                    de las Cosas (IoT) y la computación en la nube.
+                </p>
+
+            </aside>
+
+        </section>
+
+
+        <!-- IMPACTO EN LOS NEGOCIOS -->
+        <article>
+
+            <h2>Impacto de las tecnologías web en los negocios y la sociedad</h2>
+
+            <img class="imagen-principal"
+                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200"
+                 alt="Personas utilizando tecnología para comunicarse y trabajar">
+
+            <p>
+                Las tecnologías web se han convertido en una herramienta
+                fundamental para el desarrollo de la sociedad y el crecimiento
+                empresarial. Actualmente, permiten que las personas accedan
+                a información, se comuniquen de manera inmediata y realicen
+                diferentes actividades desde cualquier lugar con conexión
+                a internet.
+            </p>
+
+            <p>
+                En el ámbito empresarial, han transformado la manera en que
+                las organizaciones producen, comercializan sus productos,
+                atienden a sus clientes y toman decisiones.
+            </p>
+
+            <p>
+                En Ecuador, estas herramientas representan una oportunidad
+                para fortalecer los negocios, mejorar la competitividad
+                y facilitar el acceso a nuevos clientes. Sin embargo,
+                también existen desafíos relacionados con la seguridad
+                informática, la capacitación digital y el acceso a internet.
+            </p>
+
+
+            <h2>Principales cambios tecnológicos en los negocios</h2>
+
+            <ul>
+
+                <!-- COMERCIO ELECTRÓNICO -->
+                <li>
+
+                    <h3>1. Comercio electrónico</h3>
+
+                    <img class="imagen-seccion"
+                         src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900"
+                         alt="Cliente realizando una compra mediante comercio electrónico">
+
+                    <p>
+                        El comercio electrónico ha transformado la forma
+                        en que las empresas ofrecen y comercializan sus
+                        productos y servicios. Mediante páginas web,
+                        redes sociales y aplicaciones, los negocios
+                        pueden recibir pedidos y realizar ventas por internet.
+                    </p>
+
+                    <p>
+                        En Ecuador, esta modalidad beneficia a sectores
+                        como la ropa, alimentación, tecnología, turismo
+                        y artesanías. Además, permite que los emprendimientos
+                        lleguen a clientes de diferentes ciudades sin
+                        depender exclusivamente de un establecimiento físico.
+                    </p>
+
+                </li>
+
+
+                <!-- PAGOS DIGITALES -->
+                <li>
+
+                    <h3>2. Pagos digitales</h3>
+
+                    <img class="imagen-seccion"
+                         src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=900"
+                         alt="Pago digital mediante dispositivos electrónicos">
+
+                    <p>
+                        Los pagos digitales facilitan las transacciones
+                        económicas sin necesidad de utilizar dinero en efectivo.
+                        Actualmente, las personas pueden realizar pagos
+                        mediante tarjetas de crédito y débito, transferencias
+                        bancarias, aplicaciones financieras y códigos QR.
+                    </p>
+
+                    <p>
+                        Estas herramientas agilizan las compras, reducen
+                        los tiempos de espera y ofrecen nuevas alternativas
+                        para que los negocios reciban dinero de sus clientes.
+                    </p>
+
+                </li>
+
+
+                <!-- INTELIGENCIA ARTIFICIAL -->
+                <li>
+
+                    <h3>3. Automatización e inteligencia artificial</h3>
+
+                    <img class="imagen-seccion"
+                         src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900"
+                         alt="Tecnología de inteligencia artificial">
+
+                    <p>
+                        La automatización y la inteligencia artificial
+                        permiten que las empresas utilicen sistemas
+                        informáticos para realizar tareas de manera
+                        más rápida y eficiente.
+                    </p>
+
+                    <p>
+                        Estas tecnologías pueden utilizarse para controlar
+                        inventarios, analizar ventas, responder consultas
+                        de clientes, organizar pedidos y desarrollar
+                        estrategias de publicidad.
+                    </p>
+
+                </li>
+
+
+                <!-- MARKETING DIGITAL -->
+                <li>
+
+                    <h3>4. Comunicación y marketing digital</h3>
+
+                    <img class="imagen-seccion"
+                         src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900"
+                         alt="Análisis de datos y marketing digital">
+
+                    <p>
+                        Las plataformas digitales han cambiado la forma
+                        en que las empresas se relacionan con sus clientes.
+                        A través de redes sociales, páginas web y correo
+                        electrónico, pueden compartir información,
+                        promocionar productos y recibir opiniones.
+                    </p>
+
+                    <p>
+                        Esto permite fortalecer la relación con los
+                        consumidores, aumentar la visibilidad de una marca
+                        y mejorar las estrategias de comercialización.
+                    </p>
+
+                </li>
+
+            </ul>
+
+        </article>
+
+
+        <!-- IMPACTO SOCIAL -->
+        <section>
+
+            <h2>Impacto de las tecnologías web en la sociedad</h2>
+
+            <img class="imagen-principal"
+                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200"
+                 alt="Personas utilizando herramientas tecnológicas">
+
+            <p>
+                Las tecnologías web también han generado cambios importantes
+                en la vida cotidiana. Su utilización facilita el acceso
+                a la educación, la comunicación, los servicios de salud
+                y diferentes actividades sociales.
+            </p>
+
+            <h3>Educación digital</h3>
+
+            <img class="imagen-seccion"
+                 src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=900"
+                 alt="Estudiante aprendiendo mediante recursos digitales">
+
+            <p>
+                Las plataformas educativas, bibliotecas virtuales y cursos
+                en línea permiten que los estudiantes accedan a información
+                y recursos académicos desde cualquier lugar, facilitando
+                nuevas formas de aprendizaje.
+            </p>
+
+            <h3>Comunicación y redes sociales</h3>
+
+            <img class="imagen-seccion"
+                 src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+                 alt="Comunicación mediante dispositivos tecnológicos">
+
+            <p>
+                Las redes sociales y aplicaciones de mensajería permiten
+                mantener contacto con familiares, amigos y compañeros
+                de trabajo, compartir información y crear comunidades
+                digitales.
+            </p>
+
+            <h3>Acceso a servicios digitales</h3>
+
+            <img class="imagen-seccion"
+                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900"
+                 alt="Análisis de información mediante sistemas digitales">
+
+            <p>
+                Actualmente, muchas instituciones ofrecen servicios
+                mediante plataformas web, facilitando trámites,
+                consultas, pagos y solicitudes sin necesidad de
+                trasladarse físicamente.
+            </p>
+
+        </section>
+
+
+        <!-- VENTAJAS Y DESAFÍOS -->
+        <section>
+
+            <h2>Ventajas y desafíos de las tecnologías web</h2>
+
+            <h3>Ventajas</h3>
+
+            <ul>
+                <li>Acceso rápido a información y conocimientos.</li>
+                <li>Comunicación inmediata entre personas y empresas.</li>
+                <li>Mayor alcance comercial para los negocios.</li>
+                <li>Optimización del tiempo y los recursos.</li>
+                <li>Facilidad para realizar actividades desde cualquier lugar.</li>
+            </ul>
+
+            <h3>Desafíos</h3>
+
+            <ul>
+                <li>Riesgos relacionados con la privacidad y seguridad de los datos.</li>
+                <li>Desigualdad en el acceso a internet y dispositivos tecnológicos.</li>
+                <li>Necesidad de capacitación y conocimientos digitales.</li>
+                <li>Dependencia excesiva de las herramientas tecnológicas.</li>
+                <li>Riesgo de fraudes y desinformación en internet.</li>
+            </ul>
+
+        </section>
+
+
+        <!-- CONCLUSIÓN -->
+        <section>
+
+            <h2>Conclusión</h2>
+
+            <p>
+                Las tecnologías web han cambiado profundamente la sociedad
+                y el mundo empresarial. Su evolución ha permitido mejorar
+                la comunicación, facilitar el acceso a la información,
+                impulsar el comercio electrónico y optimizar diferentes
+                actividades.
+            </p>
+
+            <p>
+                En Ecuador, su aprovechamiento representa una oportunidad
+                para impulsar el desarrollo económico, educativo y social.
+                Sin embargo, es importante utilizarlas de manera responsable,
+                fortalecer la seguridad digital y promover el acceso
+                equitativo a estas herramientas.
+            </p>
+
+        </section>
+
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <section class="form-container">
+
+            <h2>Contáctanos</h2>
+
+            <p>
+                Si tienes alguna pregunta o comentario sobre las
+                tecnologías web, puedes comunicarte con nosotros
+                mediante el siguiente formulario.
+            </p>
+
+            <form action="/enviar-contacto" method="POST">
+
+                <div class="form-group">
+
+                    <label for="nombre">Nombre completo:</label>
+
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           placeholder="Escribe tu nombre"
+                           required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="correo">Correo electrónico:</label>
+
+                    <input type="email"
+                           id="correo"
+                           name="correo"
+                           placeholder="ejemplo@correo.com"
+                           required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="asunto">Asunto:</label>
+
+                    <input type="text"
+                           id="asunto"
+                           name="asunto"
+                           placeholder="Motivo de tu consulta"
+                           required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="mensaje">Mensaje:</label>
+
+                    <textarea id="mensaje"
+                              name="mensaje"
+                              rows="5"
+                              placeholder="Escribe aquí tu mensaje..."
+                              required></textarea>
+
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <h4>Información del proyecto</h4>
+
+        <p>Autor:Amy Carrillo</p>
+
+        <p>Carrera: Tecnologías de la Información</p>
+
+        <p>Asignatura: Tecnologías Web</p>
+
+        <p>&copy; 2026 - Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
